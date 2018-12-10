@@ -35,4 +35,8 @@ public class StudentDao {
     public Student getStudentById(int studentId){
         return this.students.get(studentId);
     }
+
+    public void removeStudentById(int id) {
+        this.students.remove(id);
+    }
 }
